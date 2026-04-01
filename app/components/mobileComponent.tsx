@@ -17,7 +17,7 @@ function Mobile({ isDark, data }: UserProps) {
   const hasBio = data.bio === null;
   return (
     <div
-      className={`datos w-full mt-6 flex flex-col md:hidden lg:hidden ${isDark ? "bg-[#1E2A47] text-white" : "bg-white "} rounded-2xl p-2`}
+      className={`datos w-full mt-6 flex flex-col md:hidden lg:hidden ${isDark ? "bg-[#1E2A47] text-white" : "bg-white shadow "} rounded-2xl p-2`}
     >
       <div>
         <div className="p-4 flex justify-evenly">

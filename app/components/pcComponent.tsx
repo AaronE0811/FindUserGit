@@ -20,7 +20,7 @@ function Pc({ isDark, data }: UserProps) {
     >
       <div className="w-17 ml-20 mr-10 h-17 rounded-full overflow-hidden">
         <img
-          className="w-full h-full rounded-full bg-amber-800"
+          className="w-full h-full rounded-full"
           src={data.avatar_url}
           alt={data.name}
         />
